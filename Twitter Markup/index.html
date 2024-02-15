@@ -1,0 +1,870 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Twitter Markup Callenge</title>
+  </head>
+
+  <body>
+    <header>
+      <h1>
+        <a href="#"><img src="#" alt="Twitter" /></a>
+      </h1>
+      <nav>
+        <h1>Global Navigation Menu</h1>
+        <ul>
+          <li>
+            <a href="#">
+              <span>Current page</span>
+              <!-- icon -->
+              Home
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <!-- icon -->
+              Explore
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <strong aria-label="5 unread notifications">5</strong>
+              <!-- icon -->
+              Notifications
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <!-- icon -->
+              Messages
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <!-- icon -->
+              Bookmarks
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <!-- icon -->
+              Lists
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <!-- icon -->
+              Profile
+            </a>
+          </li>
+          <li>
+            <button type="button">
+              <!-- icon -->
+              More
+            </button>
+
+            <!-- 스스로 drop down menu markup 해보기 -->
+            <div>
+              <a href="#"><img src="#" alt="kimbug" /></a>
+              <h2><a href="#">kimbug</a></h2>
+              <span>@kimbugx</span>
+              <ul>
+                <li>
+                  <a href="#"> Topics </a>
+                </li>
+                <li>
+                  <a href="#"> Moments </a>
+                </li>
+                <li>
+                  <a href="#"> Twitter Ads </a>
+                </li>
+                <li>
+                  <a href="#"> Analytics </a>
+                </li>
+                <li>
+                  <a href="#"> Settings and privacy </a>
+                </li>
+                <li>
+                  <a href="#"> Help Center </a>
+                </li>
+                <li>
+                  <a href="#"> Display </a>
+                </li>
+                <li>
+                  <a href="#"> Log out </a>
+                </li>
+              </ul>
+            </div>
+          </li>
+        </ul>
+
+        <button type="button">Tweet</button>
+      </nav>
+    </header>
+
+    <main>
+      <header>
+        <h1>Home</h1>
+        <button type="button" aria-label="Timeline options">
+          <!-- icon -->
+        </button>
+        <div>
+          <h2>Home shows you top Tweets first</h2>
+          <button type="button">
+            <!-- icon -->
+            <strong>See latest Tweets instead</strong>
+            <span
+              >You'll be switched back Home after <br />
+              you've been away for a while</span
+            >
+          </button>
+          <a href="#">
+            <!-- icon -->
+            View content preferences
+          </a>
+        </div>
+      </header>
+
+      <section>
+        <h1>What's happening?</h1>
+        <!--seciont태그에는 무조건 <h>태그를 적어줘야 함.. 후에 안보이도록 처리-->
+
+        <form action="#" method="POST">
+          <img src="#" alt="@kimbugx" />
+          <textarea placeholder="What's happening?" maxlength="280"></textarea>
+
+          <button type="button" aria-label="Upload files">
+            <!-- icon -->
+          </button>
+          <input type="file" multiple accept="image/*, video/*" />
+          <button type="button" aria-label="Search GIFs...">
+            <!-- icon -->
+          </button>
+          <button type="button" aria-label="Create a poll">
+            <!-- icon -->
+          </button>
+          <button type="button" aria-label="Choose emoji">
+            <!-- icon -->
+          </button>
+          <strong aria-label="0 out of 280 characters"></strong>
+
+          <button type="button" aria-label="Add another Tweet">
+            <!-- icon -->
+          </button>
+          <button type="submit">Tweet</button>
+        </form>
+      </section>
+      <section>
+        <h1>Your Timeline</h1>
+        <ol>
+          <li>
+            <article>
+              <h1>A Tweet from Glide</h1>
+              <ol>
+                <li>
+                  <header>
+                    <a href="#">
+                      <img src="#" alt="glide" />
+                    </a>
+                    <h2><a href="#"> Glide </a></h2>
+                    <dl>
+                      <div>
+                        <dt>User name</dt>
+                        <dd>
+                          <a href="#">@glideapps</a>
+                        </dd>
+                      </div>
+                      <div>
+                        <dt>Posted</dt>
+                        <dd>
+                          <a href="#"> Dec 19 </a>
+                        </dd>
+                      </div>
+                    </dl>
+                    <button type="button" aria-label="Options">
+                      <!-- icon -->
+                    </button>
+                    <div>
+                      <button type="button">
+                        <!-- icon -->
+                        Show less often
+                      </button>
+                      <button type="button">
+                        <!-- icon -->
+                        Embed Tweet
+                      </button>
+                      <button type="button">
+                        <!-- icon -->
+                        follow @anonymouskim
+                      </button>
+                      <button type="button">
+                        <!-- icon -->
+                        Mute @anonymouskim
+                      </button>
+                      <button type="button">
+                        <!-- icon -->
+                        Block @anonymouskim
+                      </button>
+                      <button type="button">
+                        <!-- icon -->
+                        Report Tweet
+                      </button>
+                    </div>
+                  </header>
+
+                  <p>
+                    Getting hitched? Wow your guests with a custom app with
+                    convenient wedding info, that they can add to their
+                    homescreen and open anytime. #madewithglide
+                  </p>
+                  <img src="#" alt="" />
+
+                  <footer>
+                    <button type="button">
+                      <!-- icon -->
+                      <span class="sr-only">Tweet your reply</span>
+                      <strong aria-label="3 replied">3</strong>
+                    </button>
+                    <button type="button">
+                      <!-- icon -->
+                      <span class="sr-only">Retweet</span>
+                      <strong aria-label="3 retweeted">3</strong>
+                    </button>
+                    <div>
+                      <button type="button">Retweet</button>
+                      <button type="button">Retweet with comment</button>
+                    </div>
+
+                    <button type="button">
+                      <!-- icon -->
+                      <span class="sr-only">Like this tweet</span>
+                      <strong aria-label="23 liked">23</strong>
+                    </button>
+                    <button type="button">
+                      <!-- icon -->
+                      <span class="sr-only">Share</span>
+                    </button>
+                    <div>
+                      <button type="button">
+                        <!-- icon -->
+                        Send vi Direct Message
+                      </button>
+                      <button type="button">
+                        <!-- icon -->
+                        Add Tweet to Bookmarks
+                      </button>
+                      <button type="button">
+                        <!-- icon -->
+                        Copy link to Tweet
+                      </button>
+                    </div>
+                  </footer>
+                </li>
+              </ol>
+            </article>
+          </li>
+          <li>
+            <article>
+              <h1>A Tweet from Glide</h1>
+              <ol>
+                <li>
+                  <header>
+                    <a href="#">
+                      <img src="#" alt="glide" />
+                    </a>
+                    <h2><a href="#"> Glide </a></h2>
+                    <dl>
+                      <div>
+                        <dt>User name</dt>
+                        <dd>
+                          <a href="#">@glideapps</a>
+                        </dd>
+                      </div>
+                      <div>
+                        <dt>Posted</dt>
+                        <dd>
+                          <a href="#"> Dec 19 </a>
+                        </dd>
+                      </div>
+                    </dl>
+                    <button type="button" aria-label="Options">
+                      <!-- icon -->
+                    </button>
+                    <div>
+                      <button type="button">
+                        <!-- icon -->
+                        Show less often
+                      </button>
+                      <button type="button">
+                        <!-- icon -->
+                        Embed Tweet
+                      </button>
+                      <button type="button">
+                        <!-- icon -->
+                        follow @anonymouskim
+                      </button>
+                      <button type="button">
+                        <!-- icon -->
+                        Mute @anonymouskim
+                      </button>
+                      <button type="button">
+                        <!-- icon -->
+                        Block @anonymouskim
+                      </button>
+                      <button type="button">
+                        <!-- icon -->
+                        Report Tweet
+                      </button>
+                    </div>
+                  </header>
+
+                  <p>
+                    Getting hitched? Wow your guests with a custom app with
+                    convenient wedding info, that they can add to their
+                    homescreen and open anytime. #madewithglide
+                  </p>
+                  <img src="#" alt="" />
+
+                  <footer>
+                    <button type="button">
+                      <!-- icon -->
+                      <span class="sr-only">Tweet your reply</span>
+                      <strong aria-label="3 replied">3</strong>
+                    </button>
+                    <button type="button">
+                      <!-- icon -->
+                      <span class="sr-only">Retweet</span>
+                      <strong aria-label="3 retweeted">3</strong>
+                    </button>
+                    <div>
+                      <button type="button">Retweet</button>
+                      <button type="button">Retweet with comment</button>
+                    </div>
+
+                    <button type="button">
+                      <!-- icon -->
+                      <span class="sr-only">Like this tweet</span>
+                      <strong aria-label="23 liked">23</strong>
+                    </button>
+                    <button type="button">
+                      <!-- icon -->
+                      <span class="sr-only">Share</span>
+                    </button>
+                    <div>
+                      <button type="button">
+                        <!-- icon -->
+                        Send vi Direct Message
+                      </button>
+                      <button type="button">
+                        <!-- icon -->
+                        Add Tweet to Bookmarks
+                      </button>
+                      <button type="button">
+                        <!-- icon -->
+                        Copy link to Tweet
+                      </button>
+                    </div>
+                  </footer>
+                </li>
+              </ol>
+            </article>
+          </li>
+          <li>
+            <article>
+              <h1>A Tweet from Glide</h1>
+              <ol>
+                <li>
+                  <header>
+                    <a href="#">
+                      <img src="#" alt="glide" />
+                    </a>
+                    <h2><a href="#"> Glide </a></h2>
+                    <dl>
+                      <div>
+                        <dt>User name</dt>
+                        <dd>
+                          <a href="#">@glideapps</a>
+                        </dd>
+                      </div>
+                      <div>
+                        <dt>Posted</dt>
+                        <dd>
+                          <a href="#"> Dec 19 </a>
+                        </dd>
+                      </div>
+                    </dl>
+                    <button type="button" aria-label="Options">
+                      <!-- icon -->
+                    </button>
+                    <div>
+                      <button type="button">
+                        <!-- icon -->
+                        Show less often
+                      </button>
+                      <button type="button">
+                        <!-- icon -->
+                        Embed Tweet
+                      </button>
+                      <button type="button">
+                        <!-- icon -->
+                        follow @anonymouskim
+                      </button>
+                      <button type="button">
+                        <!-- icon -->
+                        Mute @anonymouskim
+                      </button>
+                      <button type="button">
+                        <!-- icon -->
+                        Block @anonymouskim
+                      </button>
+                      <button type="button">
+                        <!-- icon -->
+                        Report Tweet
+                      </button>
+                    </div>
+                  </header>
+
+                  <p>
+                    Getting hitched? Wow your guests with a custom app with
+                    convenient wedding info, that they can add to their
+                    homescreen and open anytime. #madewithglide
+                  </p>
+                  <img src="#" alt="" />
+
+                  <footer>
+                    <button type="button">
+                      <!-- icon -->
+                      <span class="sr-only">Tweet your reply</span>
+                      <strong aria-label="3 replied">3</strong>
+                    </button>
+                    <button type="button">
+                      <!-- icon -->
+                      <span class="sr-only">Retweet</span>
+                      <strong aria-label="3 retweeted">3</strong>
+                    </button>
+                    <div>
+                      <button type="button">Retweet</button>
+                      <button type="button">Retweet with comment</button>
+                    </div>
+
+                    <button type="button">
+                      <!-- icon -->
+                      <span class="sr-only">Like this tweet</span>
+                      <strong aria-label="23 liked">23</strong>
+                    </button>
+                    <button type="button">
+                      <!-- icon -->
+                      <span class="sr-only">Share</span>
+                    </button>
+                    <div>
+                      <button type="button">
+                        <!-- icon -->
+                        Send vi Direct Message
+                      </button>
+                      <button type="button">
+                        <!-- icon -->
+                        Add Tweet to Bookmarks
+                      </button>
+                      <button type="button">
+                        <!-- icon -->
+                        Copy link to Tweet
+                      </button>
+                    </div>
+                  </footer>
+                </li>
+              </ol>
+            </article>
+          </li>
+          <li>
+            <article>
+              <h1>A Tweet from Glide</h1>
+              <ol>
+                <li>
+                  <header>
+                    <a href="#">
+                      <img src="#" alt="glide" />
+                    </a>
+                    <h2><a href="#"> Glide </a></h2>
+                    <dl>
+                      <div>
+                        <dt>User name</dt>
+                        <dd>
+                          <a href="#">@glideapps</a>
+                        </dd>
+                      </div>
+                      <div>
+                        <dt>Posted</dt>
+                        <dd>
+                          <a href="#"> Dec 19 </a>
+                        </dd>
+                      </div>
+                    </dl>
+                    <button type="button" aria-label="Options">
+                      <!-- icon -->
+                    </button>
+                    <div>
+                      <button type="button">
+                        <!-- icon -->
+                        Show less often
+                      </button>
+                      <button type="button">
+                        <!-- icon -->
+                        Embed Tweet
+                      </button>
+                      <button type="button">
+                        <!-- icon -->
+                        follow @anonymouskim
+                      </button>
+                      <button type="button">
+                        <!-- icon -->
+                        Mute @anonymouskim
+                      </button>
+                      <button type="button">
+                        <!-- icon -->
+                        Block @anonymouskim
+                      </button>
+                      <button type="button">
+                        <!-- icon -->
+                        Report Tweet
+                      </button>
+                    </div>
+                  </header>
+
+                  <p>
+                    Getting hitched? Wow your guests with a custom app with
+                    convenient wedding info, that they can add to their
+                    homescreen and open anytime. #madewithglide
+                  </p>
+                  <img src="#" alt="" />
+
+                  <footer>
+                    <button type="button">
+                      <!-- icon -->
+                      <span class="sr-only">Tweet your reply</span>
+                      <strong aria-label="3 replied">3</strong>
+                    </button>
+                    <button type="button">
+                      <!-- icon -->
+                      <span class="sr-only">Retweet</span>
+                      <strong aria-label="3 retweeted">3</strong>
+                    </button>
+                    <div>
+                      <button type="button">Retweet</button>
+                      <button type="button">Retweet with comment</button>
+                    </div>
+
+                    <button type="button">
+                      <!-- icon -->
+                      <span class="sr-only">Like this tweet</span>
+                      <strong aria-label="23 liked">23</strong>
+                    </button>
+                    <button type="button">
+                      <!-- icon -->
+                      <span class="sr-only">Share</span>
+                    </button>
+                    <div>
+                      <button type="button">
+                        <!-- icon -->
+                        Send vi Direct Message
+                      </button>
+                      <button type="button">
+                        <!-- icon -->
+                        Add Tweet to Bookmarks
+                      </button>
+                      <button type="button">
+                        <!-- icon -->
+                        Copy link to Tweet
+                      </button>
+                    </div>
+                  </footer>
+                </li>
+              </ol>
+            </article>
+          </li>
+          <li>
+            <article>
+              <h1>A Tweet from Glide</h1>
+              <ol>
+                <li>
+                  <header>
+                    <a href="#">
+                      <img src="#" alt="glide" />
+                    </a>
+                    <h2><a href="#"> Glide </a></h2>
+                    <dl>
+                      <div>
+                        <dt>User name</dt>
+                        <dd>
+                          <a href="#">@glideapps</a>
+                        </dd>
+                      </div>
+                      <div>
+                        <dt>Posted</dt>
+                        <dd>
+                          <a href="#"> Dec 19 </a>
+                        </dd>
+                      </div>
+                    </dl>
+                    <button type="button" aria-label="Options">
+                      <!-- icon -->
+                    </button>
+                    <div>
+                      <button type="button">
+                        <!-- icon -->
+                        Show less often
+                      </button>
+                      <button type="button">
+                        <!-- icon -->
+                        Embed Tweet
+                      </button>
+                      <button type="button">
+                        <!-- icon -->
+                        follow @anonymouskim
+                      </button>
+                      <button type="button">
+                        <!-- icon -->
+                        Mute @anonymouskim
+                      </button>
+                      <button type="button">
+                        <!-- icon -->
+                        Block @anonymouskim
+                      </button>
+                      <button type="button">
+                        <!-- icon -->
+                        Report Tweet
+                      </button>
+                    </div>
+                  </header>
+
+                  <p>
+                    Getting hitched? Wow your guests with a custom app with
+                    convenient wedding info, that they can add to their
+                    homescreen and open anytime. #madewithglide
+                  </p>
+                  <img src="#" alt="" />
+
+                  <footer>
+                    <button type="button">
+                      <!-- icon -->
+                      <span class="sr-only">Tweet your reply</span>
+                      <strong aria-label="3 replied">3</strong>
+                    </button>
+                    <button type="button">
+                      <!-- icon -->
+                      <span class="sr-only">Retweet</span>
+                      <strong aria-label="3 retweeted">3</strong>
+                    </button>
+                    <div>
+                      <button type="button">Retweet</button>
+                      <button type="button">Retweet with comment</button>
+                    </div>
+
+                    <button type="button">
+                      <!-- icon -->
+                      <span class="sr-only">Like this tweet</span>
+                      <strong aria-label="23 liked">23</strong>
+                    </button>
+                    <button type="button">
+                      <!-- icon -->
+                      <span class="sr-only">Share</span>
+                    </button>
+                    <div>
+                      <button type="button">
+                        <!-- icon -->
+                        Send vi Direct Message
+                      </button>
+                      <button type="button">
+                        <!-- icon -->
+                        Add Tweet to Bookmarks
+                      </button>
+                      <button type="button">
+                        <!-- icon -->
+                        Copy link to Tweet
+                      </button>
+                    </div>
+                  </footer>
+                </li>
+              </ol>
+            </article>
+          </li>
+        </ol>
+      </section>
+    </main>
+
+    <aside>
+      <header>
+        <h1>Worldwide trends</h1>
+        <button type="button" aria-label="Options">
+          <!-- icon -->
+        </button>
+      </header>
+
+      <ol>
+        <li>
+          <button type="button" aria-label="Options">
+            <!-- icon -->
+          </button>
+          <div>
+            <button type="button">
+              <!-- icon -->
+              This trend is spam
+            </button>
+            <button type="button">
+              <!-- icon -->
+              This trend is abusive or harmful
+            </button>
+            <button type="button">
+              <!-- icon -->
+              This trend is a duplicate
+            </button>
+            <button type="button">
+              <!-- icon -->
+              This trend is low quallity
+            </button>
+          </div>
+          <a href="#">
+            <span>1 · Trending Worldwide</span>
+            <strong>JK Rowling</strong>
+            <span>97.2K Tweets</span>
+          </a>
+        </li>
+        <li>
+          <button type="button" aria-label="Options">
+            <!-- icon -->
+          </button>
+          <div>
+            <button type="button">
+              <!-- icon -->
+              This trend is spam
+            </button>
+            <button type="button">
+              <!-- icon -->
+              This trend is abusive or harmful
+            </button>
+            <button type="button">
+              <!-- icon -->
+              This trend is a duplicate
+            </button>
+            <button type="button">
+              <!-- icon -->
+              This trend is low quallity
+            </button>
+          </div>
+          <a href="#">
+            <span>2 · Trending Worldwide</span>
+            <strong>Jungkook</strong>
+            <span>1.12M Tweets</span>
+          </a>
+        </li>
+        <li>
+          <button type="button" aria-label="Options">
+            <!-- icon -->
+          </button>
+          <div>
+            <button type="button">
+              <!-- icon -->
+              This trend is spam
+            </button>
+            <button type="button">
+              <!-- icon -->
+              This trend is abusive or harmful
+            </button>
+            <button type="button">
+              <!-- icon -->
+              This trend is a duplicate
+            </button>
+            <button type="button">
+              <!-- icon -->
+              This trend is low quallity
+            </button>
+          </div>
+          <a href="#">
+            <span>3 · Trending Worldwide</span>
+            <strong>#JusticeForApink</strong>
+            <span>222K Tweets</span>
+          </a>
+        </li>
+        <li>
+          <button type="button" aria-label="Options">
+            <!-- icon -->
+          </button>
+          <div>
+            <button type="button">
+              <!-- icon -->
+              This trend is spam
+            </button>
+            <button type="button">
+              <!-- icon -->
+              This trend is abusive or harmful
+            </button>
+            <button type="button">
+              <!-- icon -->
+              This trend is a duplicate
+            </button>
+            <button type="button">
+              <!-- icon -->
+              This trend is low quallity
+            </button>
+          </div>
+          <a href="#">
+            <span>4 · Trending Worldwide</span>
+            <strong>#GCFFinHelsinki</strong>
+            <span>49.7K Tweets</span>
+          </a>
+        </li>
+        <li>
+          <button type="button" aria-label="Options">
+            <!-- icon -->
+          </button>
+          <div>
+            <button type="button">
+              <!-- icon -->
+              This trend is spam
+            </button>
+            <button type="button">
+              <!-- icon -->
+              This trend is abusive or harmful
+            </button>
+            <button type="button">
+              <!-- icon -->
+              This trend is a duplicate
+            </button>
+            <button type="button">
+              <!-- icon -->
+              This trend is low quallity
+            </button>
+          </div>
+          <a href="#">
+            <span>5 · Trending Worldwide</span>
+            <strong>#TOGG</strong>
+            <span>118K Tweets</span>
+          </a>
+        </li>
+      </ol>
+
+      <footer>
+        <button type="button">Show more</button>
+      </footer>
+    </aside>
+
+    <footer>
+      <a href="#" target="_blank">Terms</a>
+      <a href="#" target="_blank">Privacy policy</a>
+      <a href="#" target="_blank">Cookies</a>
+      <a href="#" target="_blank">Ads info</a>
+      <button type="button">
+        More
+        <!-- icon -->
+      </button>
+      <div>
+        <a href="#" target="_blank">About</a>
+        <a href="#" target="_blank">Status</a>
+        <a href="#" taraget="_blank">Businesses</a>
+        <a href="#" target="_blank">Developers</a>
+      </div>
+
+      <span>© 2019 Twitter, Inc.</span>
+    </footer>
+  </body>
+</html>

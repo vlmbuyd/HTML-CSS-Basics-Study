@@ -1,0 +1,39 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+body {
+  font-family: "Lato", sans-serif;
+  background-color: slategray;
+}
+
+h1 {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #273444;
+}
+
+/* ▼ WHERE YOUR CODE BEGINS */
+.user-card {
+  width: 240px;
+  height: 56px;
+  border-radius: 4px;
+  background-color: #ffffff;
+}
+
+.user-photo img {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  position: relative;
+  top: 8px;
+  left: 12px;
+}
+
+h1 {
+  position: relative;
+  top: 16px;
+  left: 64px;
+}

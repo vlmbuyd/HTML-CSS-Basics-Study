@@ -21,38 +21,6 @@ button:active {
 
 .modal {
   background-color: #fff;
-}
-
-.modal-title {
-  font-size: 24px;
-  font-weight: 600;
-  line-height: 1.6666666667;
-}
-
-.modal-desc {
-  font-size: 16px;
-  line-height: 1.5;
-}
-
-.input-group input,
-.input-group button {
-  font-size: 14px;
-  font-family: "Nunito Sans", sans-serif;
-  line-height: 1.4285714286;
-}
-
-.close-button {
-  width: 20px;
-  height: 20px;
-  border: none;
-  background-color: transparent;
-  background-image: url(./assets/icon-close.svg);
-  background-position: center center;
-  background-size: contain;
-  background-repeat: no-repeat;
-}
-
-.modal {
   position: fixed;
   padding: 32px 40px;
   top: 50%;
@@ -67,13 +35,25 @@ button:active {
   text-align: center;
 }
 
-.mordal-title {
+.modal-title {
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 1.6666666667;
   margin-bottom: 4px;
 }
 
 .modal-desc {
+  font-size: 16px;
+  line-height: 1.5;
   width: 592px;
   margin: 0 auto 24px;
+}
+
+.input-group input,
+.input-group button {
+  font-size: 14px;
+  font-family: "Nunito Sans", sans-serif;
+  line-height: 1.4285714286;
 }
 
 .input-group input {
@@ -96,7 +76,15 @@ button:active {
 }
 
 .close-button {
+  width: 20px;
+  height: 20px;
   position: absolute;
   top: 8px;
   right: 8px;
+  border: none;
+  background-color: transparent;
+  background-image: url(./assets/icon-close.svg);
+  background-position: center center;
+  background-size: contain;
+  background-repeat: no-repeat;
 }

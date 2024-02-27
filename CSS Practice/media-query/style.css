@@ -61,20 +61,27 @@ a {
 
 .landing {
   display: flex;
-  flex-wrap: wrap;
-  justify-content: right;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-end;
   width: 100%;
   height: 100vh;
-  padding: 196px 20px 195px 119px;
+  padding: 0 20px;
 }
 
 .landing-title {
-  /* width: 236px;
-  height: 200px; */
-  padding: 0;
   margin-bottom: 24px;
+  text-align: right;
 }
 
 .landing-link {
-  border: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 160px;
+  height: 52px;
+  font-size: 15px;
+  background-color: rgba(0, 0, 0, 0.5);
+  border-radius: 16px;
+  border: 2px solid white;
 }

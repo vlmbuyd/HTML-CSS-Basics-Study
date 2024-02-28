@@ -4,21 +4,22 @@
 
 body {
   background-color: rgb(181, 185, 188);
+  margin: 0;
 }
 
 .card {
+  position: relative;
   display: flex;
   width: 840px;
   height: 248px;
   background-color: white;
+  padding: 24px;
 }
 
 .card-image {
-  display: relative;
-  top: 24px;
-  left: 24px;
   width: 300px;
   height: 200px;
+  margin-right: 24px;
   background-image: url(./assets/img-house.jpg);
   background-repeat: no-repeat;
   background-size: cover;
@@ -27,6 +28,9 @@ body {
 }
 
 .like-button {
+  position: absolute;
+  top: 36px;
+  left: 36px;
   width: 36px;
   height: 36px;
   border-radius: 50%;
@@ -36,4 +40,94 @@ body {
   background-image: url(./assets/icon-favorite.svg);
   background-repeat: no-repeat;
   background-position: center center;
+}
+
+.card-header {
+  margin-bottom: 9px;
+  display: flex;
+}
+
+.property-type {
+  display: flex;
+}
+
+.plus-badge {
+  width: 48px;
+  height: 22px;
+  margin-top: 3px;
+  margin-right: 8px;
+  padding: 1px 8px;
+  border-radius: 4px;
+  text-transform: uppercase;
+  text-align: center;
+  color: white;
+  font-weight: 500px;
+  font-size: 14px;
+  background-color: #92174d;
+}
+
+.property-type span {
+  margin-right: 183px;
+  color: #7d858f;
+  font-size: 16px;
+  font-weight: 400px;
+}
+
+.property-rate {
+  background-image: url(./assets/icon-star.svg);
+  background-repeat: no-repeat;
+  background-size: 16px 16px;
+  /* background-position: -15% 0%; */
+}
+
+.property-rate strong {
+  margin-right: 1px;
+  color: #151b26;
+  font-size: 16px;
+  font-weight: 400px;
+}
+
+.property-rate span {
+  color: #7d858f;
+  font-size: 16px;
+  font-weight: 400px;
+}
+
+.card-title {
+  margin: 0 0 16px;
+  color: #151b26;
+  font-size: 20px;
+  font-weight: 400px;
+}
+
+.card-detail {
+  position: absolute;
+  top: 105px;
+  left: 348px;
+}
+
+.property-detail {
+  margin: 0;
+}
+
+.property-detail dd {
+  margin: 0;
+}
+
+.property-detail span {
+  color: #7d858f;
+  font-size: 14px;
+  font-weight: 400px;
+}
+
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip-path: inset(50%);
+  border: 0;
+  clip: rect(0 0 0 0);
 }

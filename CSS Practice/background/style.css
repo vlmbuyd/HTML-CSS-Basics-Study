@@ -1,0 +1,39 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: rgb(181, 185, 188);
+}
+
+.card {
+  display: flex;
+  width: 840px;
+  height: 248px;
+  background-color: white;
+}
+
+.card-image {
+  display: relative;
+  top: 24px;
+  left: 24px;
+  width: 300px;
+  height: 200px;
+  background-image: url(./assets/img-house.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  border-radius: 6px;
+}
+
+.like-button {
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  border: 0 solid white;
+  box-shadow: 0px 4px 4 px rgba(0, 0, 0, 0.25);
+  background-color: white;
+  background-image: url(./assets/icon-favorite.svg);
+  background-repeat: no-repeat;
+  background-position: center center;
+}

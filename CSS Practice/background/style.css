@@ -1,8 +1,11 @@
+/*
+
 * {
   box-sizing: border-box;
 }
 
 body {
+  font-family: "Poppins", sans-serif;
   background-color: rgb(181, 185, 188);
   margin: 0;
 }
@@ -77,7 +80,6 @@ body {
   background-image: url(./assets/icon-star.svg);
   background-repeat: no-repeat;
   background-size: 16px 16px;
-  /* background-position: -15% 0%; */
 }
 
 .property-rate strong {
@@ -130,4 +132,100 @@ body {
   clip-path: inset(50%);
   border: 0;
   clip: rect(0 0 0 0);
+}
+
+*/
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+.card-image {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 300px;
+  height: 200px;
+  border-radius: 6px;
+  background-image: url(/assets/img-house.jpg);
+  background-color: no-repeat;
+  background-position: center center;
+  background-size: cover;
+}
+
+.card-image img {
+  width: 100%;
+  height: auto;
+}
+
+.card-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 8px;
+}
+
+.plus-badge {
+  display: inline-block;
+  padding: 1px 8px;
+  border-radius: 4px;
+  margin-right: 6px;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 1.428571428571429;
+  color: white;
+  text-transform: uppercase;
+  background-color: #92174d;
+}
+
+.property-type span {
+  font-size: 16px;
+  line-height: 1.25;
+  color: #7d858f;
+}
+
+.property-rate {
+  font-size: 16px;
+  line-height: 1.25;
+}
+
+.property-rate strong {
+  font-weight: 700;
+  color: #151b26;
+}
+
+.property-rate span {
+  color: #7d858f;
+}
+
+.property-rate::before {
+  content: "";
+  position: relative;
+  top: 2px;
+  display: inline-block;
+  width: 16px;
+  height: 16px;
+  background-image: url(/assets/icon-star.svg);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: contain;
+}
+
+.card-title {
+  margin-bottom: 16px;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 1.6;
+  color: #151b26;
+}
+
+.property-detail {
+  font-size: 14px;
+  line-height: 1.142857142857143;
+  color: #7d858f;
 }

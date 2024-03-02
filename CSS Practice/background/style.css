@@ -145,6 +145,15 @@ body {
   font-family: "Poppins", sans-serif;
 }
 
+.sr-only {
+  position: absolute;
+  z-index: -100;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  opacity: 0;
+}
+
 .card-image {
   display: flex;
   justify-content: center;

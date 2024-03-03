@@ -143,6 +143,7 @@ body {
 
 body {
   font-family: "Poppins", sans-serif;
+  background-color: #7d858f;
 }
 
 .sr-only {
@@ -154,22 +155,48 @@ body {
   opacity: 0;
 }
 
-.card-image {
+.card {
   display: flex;
-  justify-content: center;
-  align-items: center;
+  width: 840px;
+  padding: 24px;
+  background-color: white;
+}
+
+.card-image {
+  position: relative;
   width: 300px;
   height: 200px;
   border-radius: 6px;
+  margin-right: 24px;
   background-image: url(/assets/img-house.jpg);
   background-color: no-repeat;
   background-position: center center;
   background-size: cover;
 }
 
+.card-image .like-button {
+  position: absolute;
+  top: 12px;
+  left: 12px;
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  border: none;
+  background-color: white;
+  background-image: url(/assets/icon-favorite.svg);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: 24px 24px;
+  cursor: pointer;
+}
+
 .card-image img {
   width: 100%;
   height: auto;
+}
+
+.card-content {
+  flex-grow: 1;
 }
 
 .card-header {
@@ -237,4 +264,18 @@ body {
   font-size: 14px;
   line-height: 1.142857142857143;
   color: #7d858f;
+}
+
+.property-detail dd span::after {
+  content: "·";
+  margin: 0 8px;
+}
+
+.property-detail dd span:last-child::after {
+  content: "";
+  margin: 0;
+}
+
+.property-detail div:first-child {
+  margin-bottom: 8px;
 }

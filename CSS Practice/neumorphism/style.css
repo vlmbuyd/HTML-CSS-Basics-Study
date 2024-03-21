@@ -1,0 +1,103 @@
+html,
+body {
+  margin: 0; /*기본 여백 제거*/
+  padding: 0;
+  height: 100%;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #eaeaea;
+}
+
+.frame {
+  position: relative;
+  width: 86%;
+  height: 90%;
+  border-radius: 20px;
+  background: linear-gradient(145deg, #ececec, #f2f2f2);
+  box-shadow: 20px 20px 50px #ccc, -20px -20px 50px #fff;
+}
+
+.frame h2 {
+  color: #555; /*살짝 어두운 회색*/
+  padding: 20px 0 10px 30px;
+  border: none;
+}
+
+.rect-btn {
+  width: 80px;
+  height: 80px;
+  border: none;
+  border-radius: 15px;
+  background: linear-gradient(145deg, #e5e5e5, #f2f2f2);
+  box-shadow: 8px 8px 16px #ccc, -8px -8px 16px #fff;
+}
+
+.rect-long-btn {
+  width: 170px;
+  height: 80px;
+  border: none;
+  border-radius: 15px;
+  background: linear-gradient(145deg, #f2f2f2, #e5e5e5);
+  box-shadow: 8px 8px 16px #ccc, -8px -8px 16px #fff;
+}
+
+.circle-btn {
+  width: 100px;
+  height: 100px;
+  border: none;
+  border-radius: 50px;
+  background: linear-gradient(145deg, #e5e5e5, #fff);
+  box-shadow: 8px 8px 16px #ccc, -8px -8px 16px #fff;
+}
+
+.flat-btn {
+  width: 90%;
+  height: 50px;
+  border: none;
+  border-radius: 15px;
+  background: #f0f0f0;
+  box-shadow: 8px 8px 16px #ccc, -8px -8px 16px #fff;
+
+  position: absolute;
+  bottom: 150px;
+  left: 50%;
+  transform: translate(-50%, 0);
+}
+
+.rounded-btn {
+  width: 90%;
+  height: 45px;
+  border: none;
+  border-radius: 25px;
+  background: #f0f0f0;
+  background: linear-gradient(145deg, #eee, #f0f0f0);
+  box-shadow: inset 3px 3px 8px #ccc, inset 3px 3px 8px #fff;
+}
+
+.left {
+  position: absolute;
+  left: 8%;
+}
+
+.right {
+  position: absolute;
+  right: 8%;
+}
+
+.center {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.bottom {
+  position: absolute;
+  bottom: 60px;
+  left: 50%;
+  transform: translate(-50%, 0);
+}

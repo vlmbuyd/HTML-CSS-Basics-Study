@@ -1,0 +1,61 @@
+table,
+th,
+td {
+  border-collapse: collapse;
+  border: 1px solid rgb(201, 222, 223);
+  text-align: center;
+  width: 100px;
+  height: 40px;
+}
+th,
+td {
+  padding: 20px;
+}
+th {
+  text-align: center;
+  font-size: 18px;
+}
+
+.name {
+  color: rgb(57, 77, 190);
+}
+
+.근로 {
+  background-color: rgb(231, 190, 114);
+  color: aliceblue;
+}
+
+.인간-컴퓨터 {
+  background-color: rgb(119, 179, 122);
+  color: aliceblue;
+}
+
+.피지컬컴퓨팅 {
+  background-color: rgb(119, 177, 179);
+  color: aliceblue;
+}
+
+.웹앱 {
+  background-color: rgb(193, 127, 183);
+  color: aliceblue;
+}
+
+.미디어인포 {
+  background-color: rgb(96, 142, 206);
+  color: aliceblue;
+}
+
+.융복합 {
+  background-color: rgb(218, 162, 130);
+  color: aliceblue;
+}
+
+.창캡 {
+  background-color: rgb(156, 117, 235);
+  color: aliceblue;
+}
+
+.멋사 {
+  background-color: rgb(93, 114, 205);
+  color: aliceblue;
+}

@@ -17,7 +17,7 @@
 
 .rgba {
   height: inherit;
-  background-color: rgba(255, 255, 255, 0.5);
+  background-color: rgba(225, 255, 255, 0.5);
 }
 
 .opacity-transition {
@@ -26,4 +26,101 @@
 
 .opacity-transition:hover {
   opacity: 0;
+}
+
+.scale-img {
+  margin: 200px;
+  transition: all 0.5s;
+}
+
+.scale-img:hover {
+  transform: scale(2);
+}
+
+.rotate-img {
+  margin: 200px;
+  transition: all 4.5s;
+}
+
+.rotate-img:hover {
+  transform: rotateY(1440deg);
+}
+
+.circle-alone {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-color: salmon;
+  transition: all 1s;
+}
+
+.circle-alone:hover {
+  transform: translateX(500px);
+}
+
+.container-x {
+  width: 50px;
+  border: 2px dashed orange;
+}
+
+.circle {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-color: crimson;
+  transition: all 1s;
+}
+
+.container-x:hover .circle {
+  transform: translateX(500px);
+}
+
+.container-y {
+  width: 50px;
+  border: 2px dashed green;
+}
+
+.container-y:hover .circle {
+  transform: translateY(-500px);
+}
+
+.container {
+  width: 150px;
+  margin: 150px;
+  border: 2px dotted deeppink;
+}
+
+.box1 {
+  position: relative;
+  height: 150px;
+  background-color: cornflowerblue;
+  transition: all 1s;
+}
+
+.box2 {
+  position: relative;
+  top: 0;
+  left: 0;
+  height: 150px;
+  background-color: rgb(100, 237, 173);
+  transition: all 1s;
+}
+
+.box3 {
+  position: relative;
+  height: 150px;
+  background-color: rgb(237, 219, 100);
+  transition: all 1s;
+}
+
+.container:hover .box1 {
+  transform: translate(50px, -50px);
+}
+
+.container:hover .box2 {
+  transform: translate(70px, -70px);
+}
+
+.container:hover .box3 {
+  transform: translate(90px, -90px);
 }

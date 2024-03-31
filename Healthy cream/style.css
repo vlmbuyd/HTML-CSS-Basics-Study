@@ -4,14 +4,15 @@
 }
 
 body {
-  background-color: #ededed;
+  font-family: "Roboto Mono", monospace;
+  background-color: #dae5cf;
 }
 
 .search {
   display: flex;
   align-items: center;
-  width: 320px;
-  height: 60px;
+  width: 400px;
+  height: 50px;
   margin: 20px auto 30px 20px;
   border-radius: 7px;
   background-color: #ffffff;
@@ -19,6 +20,11 @@ body {
 
 .search-input {
   border: none;
+  padding: 8px;
+}
+
+.search-input:focus {
+  outline: none;
 }
 
 .search-input::placeholder {
@@ -38,4 +44,112 @@ body {
   background-image: url(/assets/search.png);
   background-repeat: no-repeat;
   background-size: cover;
+}
+
+.copy-writing {
+  padding-left: 20px;
+  margin-bottom: 30px;
+}
+
+.copy-writing strong {
+  font-size: 30px;
+  font-weight: 300px;
+}
+
+.highlight-green {
+  color: rgb(35, 134, 71);
+}
+
+.detailed {
+  display: flex;
+  justify-content: space-around;
+  width: 920px;
+  margin-bottom: 20px;
+}
+
+.moon::before {
+  content: "";
+  display: block;
+  width: 25px;
+  height: 25px;
+  background-image: url(assets/moon.png);
+  background-size: cover;
+}
+
+.apple::before {
+  content: "";
+  display: block;
+  width: 25px;
+  height: 25px;
+  background-image: url(assets/apple.png);
+  background-size: cover;
+}
+
+.lion::before {
+  content: "";
+  display: block;
+  width: 25px;
+  height: 25px;
+
+  background-image: url(assets/lion.png);
+  background-size: cover;
+}
+
+.moon::before,
+.apple::before,
+.lion::before {
+  margin-bottom: 20px;
+}
+
+.moon,
+.apple,
+.lion {
+  padding: 20px;
+}
+
+.moon p,
+.apple p,
+.lion p {
+  font-size: 16px;
+  line-height: 1.875;
+}
+
+.detailed strong {
+  display: block;
+  margin-bottom: 10px;
+  font-size: 18px;
+  font-weight: 500px;
+}
+
+.detailed p {
+  color: #9a9898;
+}
+
+.moon:hover,
+.apple:hover,
+.lion:hover {
+  color: rgb(220, 213, 213);
+  background-color: rgb(58, 173, 58);
+  border-radius: 10px;
+}
+
+.moon:hover p,
+.apple:hover p,
+.lion:hover p {
+  color: rgb(220, 213, 213);
+}
+
+.moon:hover::before {
+  color: rgb(220, 213, 213);
+  background-image: url(assets/white-moon.png);
+}
+
+.apple:hover::before {
+  color: rgb(220, 213, 213);
+  background-image: url(assets/white-apple.png);
+}
+
+.lion:hover::before {
+  color: rgb(220, 213, 213);
+  background-image: url(assets/white-lion.png);
 }

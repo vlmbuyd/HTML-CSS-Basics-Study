@@ -1,0 +1,98 @@
+.multi {
+  width: 100px;
+  height: 100px;
+  background-color: tomato;
+  transition: width 1s, height 2.5s, transform 0.5s;
+}
+
+.multi:hover {
+  /* transform: scale(2); 중심점 가운데 & 변형 시 주변 요소에 영향 x */
+  width: 200px; /* 중심점 좌상단 & 변형 시 주변 요소에 영향 O & 변화 전 width, height 정의 해주어야 함*/
+  height: 200px;
+  transform: rotate(180deg);
+}
+
+.img-container {
+  width: 128px;
+  height: 128px;
+  background-color: aquamarine;
+}
+
+.img-container-dropshadow {
+  width: 128px;
+  height: 128px;
+  background-color: salmon;
+}
+
+.img-container-dropshadow img {
+  transition: filter 1s;
+}
+
+.img-container-dropshadow:hover img {
+  filter: drop-shadow(8px 8px 10px green);
+}
+
+.text {
+  transition: all 1s;
+}
+
+.text:hover {
+  filter: drop-shadow(4px 4px 2px crimson) blur(6px);
+}
+
+.img-container-blur {
+  width: 128px;
+  height: 128px;
+  background-color: salmon;
+  transition: all 2s;
+}
+
+.img-container-blur:hover {
+  background-color: aqua;
+}
+
+.img-container-blur img {
+  transition: filter 1s;
+}
+
+.img-container-blur:hover img {
+  filter: blur(100px);
+}
+
+.img-container-filters {
+  width: 128px;
+  height: 128px;
+  background-color: salmon;
+  transition: all 3s;
+}
+
+.img-container-filters img {
+  transition: filter 1s;
+}
+
+.img-container-filters:hover img {
+  filter: blur(10px) drop-shadow(8px 8px 10px rgb(57, 57, 180));
+}
+
+.poem {
+  line-height: 50px;
+  letter-spacing: 15px;
+  text-align: center;
+}
+
+.css-filter-complex {
+  width: 128px;
+}
+
+.img-container-complex img {
+  /* width: 128px; */
+  height: 128px;
+  transition: width 4s 1s, height 0.5s 2s, filter 1s 4s, transform 2s 3s;
+}
+
+.img-container-complex:hover img {
+  width: 256px;
+  height: 256px;
+  transform: rotateY(540deg);
+  filter: blur(10px) drop-shadow(8px 8px 10px rgb(57, 57, 180));
+}

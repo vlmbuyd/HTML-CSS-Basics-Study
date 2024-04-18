@@ -2,6 +2,9 @@ body {
   margin: 0;
   padding: 0;
   background-color: #04070e;
+  background-image: url("images/laika.png"), url("images/sputnik.png");
+  background-repeat: no-repeat, no-repeat;
+  background-position: 0% 94%, 95% 7%;
 }
 
 .frame {
@@ -12,7 +15,7 @@ body {
 }
 
 nav {
-  margin-bottom: 40px;
+  margin-bottom: 0px;
 }
 
 nav h2 {
@@ -46,12 +49,60 @@ nav ul li {
 }
 
 main {
+  position: relative;
   height: 900px;
   background: url("images/bg.png");
 }
 
+.ui {
+  border: 1px dashed gray;
+  background-color: rgba(176, 21, 44, 0.3);
+  display: inline-block;
+  position: absolute;
+}
+
+.id {
+  top: 43px;
+  left: 54px;
+}
+
+.fuel {
+  top: 108px;
+  left: 54px;
+}
+
+.fuel-bar {
+  position: absolute;
+  top: 5px;
+  left: 24px;
+  transition: all 1s;
+  transform-origin: center left; /*원점 설정 */
+}
+
+.fuel:hover .fuel-bar {
+  transform: scaleX(0.3);
+}
+
+.mineral {
+  top: 150px;
+  left: 54px;
+}
+
+.mineral-bar {
+  position: absolute;
+  top: 6px;
+  left: 28px;
+  opacity: 0;
+  transition: opacity 1s;
+}
+
+.mineral:hover .mineral-bar {
+  opacity: 1;
+}
+
 footer {
   height: 136px;
+  margin: 80px 0;
   background: url(images/footer-bg.png) no-repeat;
   background-position: center center;
   text-align: center;

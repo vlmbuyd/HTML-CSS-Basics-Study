@@ -1,0 +1,26 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.frame {
+  width: 1600px;
+  margin: 0 auto;
+  border: 2px dashed red;
+}
+
+nav h2 {
+  display: inline-block;
+}
+
+nav ul {
+  display: inline-block;
+  list-style: none;
+  float: right;
+  padding-top: 10px;
+}
+
+nav ul li {
+  display: inline;
+  padding: 7px 30px;
+}

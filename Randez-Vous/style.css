@@ -1,12 +1,18 @@
 body {
   margin: 0;
   padding: 0;
+  background-color: #04070e;
 }
 
 .frame {
   width: 1600px;
   margin: 0 auto;
+  color: white;
   border: 2px dashed red;
+}
+
+nav {
+  margin-bottom: 40px;
 }
 
 nav h2 {
@@ -23,4 +29,35 @@ nav ul {
 nav ul li {
   display: inline;
   padding: 7px 30px;
+}
+
+.description {
+  margin-bottom: 80px;
+}
+
+.description h2 {
+  padding: 10px 20px;
+}
+
+.description p {
+  padding: 0 40px;
+  font-size: 11pt;
+  line-height: 18pt;
+}
+
+main {
+  height: 900px;
+  background: url("images/bg.png");
+}
+
+footer {
+  height: 136px;
+  background: url(images/footer-bg.png) no-repeat;
+  background-position: center center;
+  text-align: center;
+}
+
+footer p {
+  line-height: 136px;
+  text-shadow: 1px 1px 0 black;
 }

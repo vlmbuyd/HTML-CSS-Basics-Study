@@ -126,6 +126,7 @@
 .container {
   position: relative;
   width: 150px;
+  height: 150px;
   margin: 150px;
   border: 2px dotted deeppink;
 }
@@ -144,7 +145,7 @@ Q. box2,3에서 position:absolute를 선언하면
   position: absolute;
   top: 0;
   left: 0;
-  /* width: 150px; */
+  width: 150px;
   height: 150px;
   background-color: rgb(100, 237, 173);
   transition: all 1s;
@@ -154,7 +155,7 @@ Q. box2,3에서 position:absolute를 선언하면
   position: absolute;
   top: 0;
   left: 0;
-  /* width: 150px; */
+  width: 150px;
   height: 150px;
   background-color: rgb(237, 219, 100);
   transition: all 1s;

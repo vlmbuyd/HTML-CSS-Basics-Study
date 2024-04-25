@@ -30,8 +30,22 @@ nav ul {
 }
 
 nav ul li {
+  cursor: pointer;
   display: inline;
   padding: 7px 30px;
+  transition: color 1s;
+}
+
+.menu1:hover {
+  color: crimson;
+}
+
+nav ul li:nth-child(2):hover {
+  color: lime;
+}
+
+nav ul li:last-child:hover {
+  color: violet;
 }
 
 .description {

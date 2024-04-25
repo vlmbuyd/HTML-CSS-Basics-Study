@@ -122,6 +122,13 @@ main {
 .minimap {
   bottom: 38px;
   right: 53px;
+  transform: scale(0.5);
+  transform-origin: bottom right;
+  transition: transform 0.6s;
+}
+
+.minimap:hover {
+  transform: scale(1);
 }
 
 footer {

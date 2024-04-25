@@ -162,6 +162,28 @@ main {
   filter: invert();
 }
 
+.msg {
+  top: 536px;
+  left: 696px;
+  opacity: 0.5;
+  transition: all 2s;
+}
+
+.msg:hover {
+  opacity: 1;
+  filter: hue-rotate(-90deg);
+}
+
+.label {
+  top: 69px;
+  left: 979px;
+  transition: transform 1s;
+}
+
+.label:hover {
+  transform: rotateX(720deg);
+}
+
 footer {
   height: 136px;
   margin: 80px 0;

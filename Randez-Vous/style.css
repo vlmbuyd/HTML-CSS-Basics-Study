@@ -184,6 +184,22 @@ main {
   transform: rotateX(720deg);
 }
 
+.spaceman-container {
+  width: 28px;
+  height: 368px;
+  left: 1355px;
+}
+
+.spaceman {
+  position: absolute;
+  bottom: 0;
+  transition: transform 1s;
+}
+
+.spaceman-container:hover .spaceman {
+  transform: translateY(-570px);
+}
+
 footer {
   height: 136px;
   margin: 80px 0;

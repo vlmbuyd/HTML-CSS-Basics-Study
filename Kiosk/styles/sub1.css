@@ -34,3 +34,21 @@ nav .logo {
 
   object-fit: cover;
 }
+
+.main-indicator {
+  position: relative;
+  top: 820px;
+  display: block;
+  margin: 0 auto;
+}
+
+.description span {
+  position: relative;
+  top: 900px;
+  color: white;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  font-size: 32px;
+  line-height: 1.7em;
+}

@@ -16,21 +16,21 @@
 
 .nav-1 {
   width: 1020px;
-  background-image: url("../images/main-nav-1.webp");
+  background-image: url("../images/main-nav-1.jpg");
 }
 
 .nav-2 {
   display: inline-block;
   width: 500px;
   margin: 20px 14px 0 0;
-  background-image: url("../images/main-nav-2.webp");
+  background-image: url("../images/main-nav-2.jpg");
 }
 
 .nav-3 {
   display: inline-block;
   width: 500px;
   margin-top: 20px;
-  background-image: url("../images/main-nav-3.webp");
+  background-image: url("../images/main-nav-3.jpg");
 }
 
 .main-nav h2 {

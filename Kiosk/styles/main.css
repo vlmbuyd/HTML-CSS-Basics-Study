@@ -1,3 +1,16 @@
+header {
+  margin-bottom: 50px;
+}
+
+.main-vid {
+  position: relative;
+  top: 0;
+  left: 0;
+  width: 1080px;
+  height: 700px;
+  object-fit: cover;
+}
+
 .main-nav {
   position: relative;
   width: 1020px;
